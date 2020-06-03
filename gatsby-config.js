@@ -66,8 +66,8 @@ const pluginConfig = [
   {
     resolve: `gatsby-plugin-manifest`,
     options: {
-      name: `Willian Justen Blog`,
-      short_name: `WJusten`,
+      name: `Eduardo Jansen Blog`,
+      short_name: `EJansen`,
       start_url: `/`,
       background_color: `#1C2938`,
       theme_color: `#1C2938`,
@@ -133,7 +133,7 @@ const pluginConfig = [
             }
           `,
           output: '/feed.xml',
-          title: 'Willian Justen Blog - RSS Feed'
+          title: 'Eduardo Jansen Blog - RSS Feed'
         }
       ]
     }
@@ -168,12 +168,12 @@ if (process.env.CONTEXT === 'production') {
 
 module.exports = {
   siteMetadata: {
-    title: `Willian Justen`,
-    position: 'Desenvolvedor Front End',
+    title: `Eduardo Jansen`,
+    position: 'Desenvolvedor Fullstack',
     description: `Um blog de um desenvolvedor Front End, fã de SVG, Javascript, React e novas tecnologias. Nômade Digital, instrutor na Udemy e viajando o mundo.`,
     authorDescription: `Instrutor na Udemy, escrevo sobre o mundo front end, viagens, vida pessoal e mais.`,
-    author: `@Willian_justen`,
-    siteUrl: 'https://willianjusten.com.br'
+    author: `@eduardojansen`,
+    siteUrl: 'https://eduardojansen.com.br'
   },
   plugins: pluginConfig
 }
